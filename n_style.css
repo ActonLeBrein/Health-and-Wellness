@@ -1,0 +1,1781 @@
+/*
+	Estilos para Wellness Score
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12px;
+	font: inherit;
+	vertical-align: inherit;    
+}
+
+h1{
+	font-family: 'aero_matics_lightregular';
+	font-size:44px;
+	color:#10334A;
+	text-align:left;
+	padding-left:90px;
+	background:url("images/fondo_titulo.png") no-repeat;
+	background-position:-15px 0px;
+	background-size:90%;	
+}
+
+p{
+
+	font-size:19px;
+	color:#4D4D4D;
+	text-align:center;
+}
+
+h3{
+	font-family: 'aero_matics_lightregular';
+	font-size:32px;
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:5px;
+}
+
+h3 span{
+
+}
+
+#content{
+	width:775px;
+	height:646px;
+}
+
+/*#header{
+	background:url('images/header.png') no-repeat;	
+	width:775px;
+	height:545px;	
+	clear:both;
+	z-index:99999 !important;
+}
+
+#en_header{
+	background:url('images/en_header.png') no-repeat;	
+	width:775px;
+	height:545px;	
+	clear:both;
+	z-index:99999 !important;
+}*/
+
+#contenido{
+	/*background:url('images/n_fondo_1.jpg') no-repeat;	*/
+	width:775px;
+	height:646px;
+	
+}
+
+.portada{
+	background:url('images/n_fondo_1.jpg') no-repeat;
+	width:775px;
+	height:646px;
+	overflow:hidden;
+}
+
+#contenido_comparte{
+	background:url('images/ESP_775.jpg') no-repeat;	
+	width:775px;
+	overflow:hidden;
+	
+}
+
+#contenido_comparte_eng{
+	background:url('images/ENG_775.jpg') no-repeat;	
+	width:775px;
+	overflow:hidden;
+	
+}
+
+#en_contenido{
+	background:url('images/en_fondo_1.jpg') no-repeat;	
+	width:775px;
+	overflow:hidden;
+	
+}
+
+
+#header{
+	font-family: 'bebas_neueregular';
+	font-size:20px;
+	color:#FFFFFF;	
+	background: #277CAD;	
+	text-align: left;
+	line-height: 40px;
+	overflow:hidden;
+}
+
+.consulta{
+	background:url("images/icono_imc.png") no-repeat left center;
+	float:left;
+	width:200px;	
+	padding-left:30px;
+	margin-left:15px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.version{	
+	float:right;
+	color:#FFFFFF;	
+	background:#5CC5EA;
+	width:40px;
+	text-decoration:none;	
+	text-align:center;
+}
+
+
+.valores{
+	width:775px;
+	padding:0px;
+	margin-top: 150px;	
+}
+
+#contenido_comparte .valores, #contenido_comparte_eng .valores{
+    margin-top:270px;
+}
+
+/*#facebook{
+	width:644px;
+	height:344px;
+	margin:0px auto;
+	padding:5px;
+	background:url("images/fondo_pregunta.png") no-repeat;
+	font-family: 'aero_matics_lightregular';
+	background-size:100% 100%;
+	margin-bottom:10px;
+}*/
+
+button, .custom{
+    width: 222px !important;
+    height: 54px !important;
+}
+/*#btn_facebook, #btn_sin_facebook{
+	width:222px;
+	height:54px;	
+	font-size:20px;
+	color:#FFFFFF;
+	position:absolute;
+}
+
+#btn_facebook:hover, #btn_sin_facebook:hover, .respuesta:hover, .activa{	
+	background-color:#FFFFFF !important;
+	-webkit-box-shadow: 0px 0px 15px rgba(255,255,255,50) !important;
+    -moz-box-shadow: 0px 0px 15px rgba(255,255,255,50) !important;
+    box-shadow: 0px 0px 15px rgba(255,255,255,50) !important;
+	cursor:pointer !important;
+}
+
+#btn_facebook{
+	background:url('images/btn_facebook.jpg') no-repeat;		
+	margin-top:40px;
+	margin-left:80px;
+}*/
+
+.btn_google{
+    margin-top:140px;
+    margin-left:80px;
+}
+
+/*#btn_sin_facebook{	
+	padding:10px 0px;
+	height:34px;
+	width:222px;		
+	background-color:#4DB8F2;			
+	font-size:20px;
+	color:#061821;
+	text-align:center;
+	margin-left:350px;
+	margin-top:40px;
+}
+
+
+#btn_facebook span{
+	display:block;
+	width:160px;
+	margin-left:70px;
+	text-align:left;
+}
+
+#btn_sin_facebook span{
+	display:block;
+	width:200px;	
+	text-align:center;		
+}*/
+
+#tittle {
+	height: 87px;
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'OpenSansBold';
+	font-size: 44px;
+	border-bottom: 1px solid #9a9a9a;
+}
+#preguntas {
+	margin-top: 0px;
+}
+.pregunta{
+	width: 592px;
+	height: 367px;
+	margin: 60px auto 0 auto;
+	background: url("images/fondo_pregunta3.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.resp{
+	width: 593px;
+	height: 366px;
+	margin: 0px auto;
+	background: url("images/fondo_resp.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+div#mensaje {
+	background-color: rgba(214,236,251,.5);
+	text-align:center;
+	padding:10px 0px;
+	margin-bottom:10px;
+}
+
+
+.pregunta h3,
+#facebook h3{
+	display:block;
+	margin:30px 10px 10px 10px;
+}
+h3 {
+	font-family: 'OpenSansRegular';
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 5px;
+}
+p.example {
+	font-size: 24px;
+	font-family: 'source_sans_proitalic';
+}
+.regresar{
+	background:url("images/regresar.png") no-repeat center top;
+	text-align:center;
+	padding-top:20px;
+	width:80px;
+	height:50px;
+	position:absolute;
+	top:465px;
+	left:35px;
+	font-family: 'aero_matics_lightregular';
+	font-size:14px;
+	color:#36C6FC;
+}
+
+.regresar:hover{
+	cursor:pointer;
+	background:url("images/regresarAct.png") no-repeat center top;
+	color:#FFFFFF;
+}
+
+/*.trazo {
+    
+    width:80px;
+    height: 70px;	
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    
+}
+
+#regresar .trazo{
+	background-color: none;
+    -webkit-transform:rotate(50deg);
+    -moz-transform:rotate(50deg);
+    -o-transform:rotate(50deg);
+    transform:rotate(50deg);
+	margin-top:-85px;
+	margin-left:25px;
+	border-top:2px #4DB8F2 solid;
+}*/
+
+.respuesta {
+	padding:10px 0px;
+	width:222px;
+	position:absolute;	
+	background-color:#164866;			
+	font-family: 'OpenSansRegular';
+	font-size:28px;
+	color: #FFFFFF;
+	text-align:center;
+}
+.respuesta1 {
+	z-index: 10;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+.respuesta2 {
+	z-index: 10;
+	margin-left: 300px;
+	margin-top: 40px;
+}
+.respuesta3 {
+	margin-left: 60px;
+	margin-top: 140px;
+}
+.respuesta4 {
+	margin-left: 300px;
+	margin-top: 140px;
+}
+.respuesta5 {
+	z-index: 10;
+	margin-left: 330px;
+	margin-top: -60px;
+	padding: 10px 0px;
+	width:222px;
+	position:absolute;	
+	background-color:#164866;			
+	font-family: 'OpenSansRegular';
+	font-size:28px;
+	color: #FFFFFF;
+	text-align:center;
+}
+.respuesta6 {
+	z-index: 10;
+	margin-left: 200px;
+	margin-top: 20px;
+	padding: 10px 0px;
+	width:222px;
+	position:absolute;	
+	background-color:#164866;			
+	font-family: 'OpenSansRegular';
+	font-size:28px;
+	color: #FFFFFF;
+	text-align:center;
+}
+.multi1 {
+	z-index: 10;
+	font-size: 20px;
+	width: 250px;
+	margin-top: 0px;
+	height: 85px;
+}
+.multi2 {
+	z-index: 10;
+	font-size: 20px;
+	width: 250px;
+	margin-top: 115px;
+	height: 85px;
+}
+.lr1 {
+	padding-top: 25px;
+	height: 70px;
+}
+.lr2 {
+	padding-top: 25px;
+	height: 70px;
+}
+.lr3 {
+	padding-top: 35px;
+	height: 60px;
+}
+.code {
+	padding: 10px;
+	text-align: center;
+	padding-left: 115px;
+	padding-right: 115px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+#country {
+	color: black;
+	font-family: 'source_sans_proitalic';
+	font-size: 24px;
+}
+#paises {
+	padding: 10px;
+	padding-top: 15px;
+	border-radius: 6px;
+}
+#view_res {
+	width: 270px;
+}
+.regresar {
+	z-index: 10;
+	background: url("images/regresar.png") no-repeat center top;
+	text-align: center;
+	padding-top: 20px;
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	top: 515px;
+	left: 65px;
+	font-family: 'aero_matics_lightregular';
+	font-size: 14px;
+	color: #164866;
+}
+.regresar:hover {
+	z-index: 10;
+	background: url("images/regresar.png") no-repeat center top;
+	text-align: center;
+	padding-top: 20px;
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	top: 515px;
+	left: 65px;
+	font-family: 'aero_matics_lightregular';
+	font-size: 14px;
+	color: #5594b7;
+}
+.input_answer {
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 10px;
+	padding-top: 16px;
+	margin-left: 50px;
+	margin-top: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.logos {
+	text-align: center;
+	height: 113px;
+	margin-top: 40px;
+	margin-right: 360px;
+	padding: 0;
+}
+img.clock {
+	padding-top: 215px;
+	padding-left: 220px;
+	float: right;
+	position: absolute;
+}
+img.clock20 {
+	padding-top: 215px;
+	padding-left: 221px;
+	float: right;
+	position: absolute;
+}
+img.clock23 {
+	padding-top: 215px;
+	padding-left: 536px;
+	float: right;
+	position: absolute;
+}
+img.clock25 {
+	padding-left: 535px;
+	padding-top: 258px;
+	float: right;
+	position: absolute;
+}
+img.clock26 {
+	padding-left: 535px;
+	float: right;
+	position: absolute;
+	margin-top: -7px;
+}
+
+.tamanio2{
+	font-size:20px;
+}
+#pregunta3 .margen{
+	padding:22px 0px;
+}
+
+#pregunta2 .margen{
+	padding:22px 0px;
+}
+
+#pregunta19 .margen{
+	padding:22px 0px;
+}
+
+#pregunta19 .en_margen{
+	padding:38px 0px;
+}
+
+.fondo_calificacion{	
+	background:url("images/fondo_calificacion.png") no-repeat;
+	background-position:70px 0px;
+	padding-bottom:40px;	
+}
+
+.calificacion{	
+	font-family: 'aero_matics_lightregular';
+	font-size:44px;
+	color:#10344A;
+	padding:20px 0px 0px 0px;
+	margin-left:-10px;
+	text-align:center;
+	width:100%;
+	height: 175px;
+}
+
+/*.calificacion .tit{	
+	font-family: 'aero_matics_lightregular';
+	font-size:44px;
+	color:#10334A;
+	text-align:center;
+	padding-left:90px;
+	background:url("images/fondo_titulo.png") no-repeat;	
+	background-position:0px 0px;
+	background-size:310px 50px;
+	width:100%;
+	display:block;
+	z-index:9999999 !important;
+}*/
+
+.calificacion #resultado{	
+	font-family: 'source_sans_probold';
+	font-size:155px;
+	color:#174866;	
+	/*text-shadow: 0px 0px 15px rgba(255,255,255,50) !important;*/
+	width:100%;
+	text-align:center;	
+}
+
+.calificacion #resultado span{	
+	font-family: 'aero_matics_display_lightRg';
+	font-size:30px;
+	color:#FFFFFF;
+	display:block;
+	margin-top:-60px;
+	text-align:center;
+}
+
+.mensaje div{
+	font-family: 'source_sans_proregular';
+	font-size:18px;
+	color:#000000;
+	width:540px;
+	margin:0px auto;
+}
+
+.valores{
+	margin-top:0px;
+}
+
+ul#menu_resultados {
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+ul#menu_resultados li {
+	display: inline-block;
+	padding: 10px 5px;
+	font-family: 'source_sans_proregular';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #000;
+	cursor:pointer;
+}
+
+li.opt_activa {
+	border-bottom: 2px #164866 solid;
+}
+
+
+.mejora{
+	background:url("images/fondo_areas_mejora.jpg") no-repeat;
+	background-size:101% 100%;
+	width:775px;    
+	height:750px;
+	padding-top:20px;
+	margin-top:-4px;
+}
+
+.mejora .tit{
+	font-family: 'aero_matics_lightregular';
+	font-size:44px;
+	color:#10334A;
+	text-align:left;
+	padding-left:90px;
+	background:url("images/fondo_titulo.png") no-repeat;
+	background-position:-15px 0px;
+	background-size:640px 50px;
+	width:600px;
+	display:block;
+	z-index:9999999 !important;
+}
+
+.mejora .tit2{
+	font-family: 'aero_matics_lightregular';
+	font-size:44px;
+	color:#10334A;
+	text-align:left;
+	padding-left:90px;
+	background:url("images/fondo_titulo.png") no-repeat;
+	background-position:-15px 0px;
+	background-size:640px 50px;
+	width:600px;
+	display:block;
+	z-index:9999999 !important;
+}
+
+.mejora div.titulo{
+	display:block;
+	z-index:0 !important;
+	width:620px;	
+	background:url("images/fondo_areas_2.png") no-repeat;
+	background-size:100% 90%;
+	text-align:center;		
+	margin-top:-20px;
+	margin-left:70px;
+	padding:30px 0px;
+	font-family: 'aero_matics_lightregular';
+	font-size:19px;
+	color:#FFFFFF;
+}
+
+.tips{
+	width: 500px;
+	margin: 0px auto 10px auto;
+	padding-top: 15px;
+}
+
+/* Sprite para el area de mejora */
+.tip{
+	background:url("images/sprite.png");
+	float:left;
+	background: url("images/sprite.png");
+	float: left;
+	border: 3px transparent solid;
+	margin: 2px;
+	background-repeat: no-repeat;
+
+}
+/*.sprite-agua_active{ background-position: 0 0; width: 96px; height: 96px; margin-left:555px;} 
+.sprite-agua_inactive{ background-position: 0 -146px; width: 96px; height: 96px; margin-left:555px;} 
+.sprite-alcohol_active{ background-position: 0 -292px; width: 96px; height: 96px; margin-top:222px;} 
+.sprite-alcohol_inactive{ background-position: 0 -438px; width: 96px; height: 96px; margin-top:222px;} 
+.sprite-chatarra_active{ background-position: 0 -584px; width: 96px; height: 96px; margin-left:111px;} 
+.sprite-chatarra_inactive{ background-position: 0 -730px; width: 96px; height: 96px; margin-left:111px; } 
+.sprite-colesterol_active{ background-position: 0 -876px; width: 96px; height: 96px; margin-top:111px; margin-left:111px;} 
+.sprite-colesterol_inactive{ background-position: 0 -1022px; width: 96px; height: 96px; margin-top:111px; margin-left:111px;} 
+.sprite-desayuno_active{ background-position: 0 -1168px; width: 96px; height: 96px; margin-top:222px; margin-left:444px;} 
+.sprite-desayuno_inactive{ background-position: 0 -1314px; width: 96px; height: 96px; margin-top:222px; margin-left:444px;} 
+.sprite-diabetes_active{ background-position: 0 -1460px; width: 96px; height: 96px; margin-top:111px; margin-left:444px;} 
+.sprite-diabetes_inactive{ background-position: 0 -1606px; width: 96px; height: 96px; margin-top:111px; margin-left:444px;} 
+.sprite-dormir_active{ background-position: 0 -1752px; width: 96px; height: 96px; margin-top:222px; margin-left:111px;} 
+.sprite-dormir_inactive{ background-position: 0 -1898px; width: 96px; height: 96px; margin-top:222px; margin-left:111px;} 
+.sprite-ejercicio_active{ background-position: -146px 0; width: 96px; height: 96px; } 
+.sprite-ejercicio_inactive{ background-position: -146px -146px; width: 96px; height: 96px; } 
+.sprite-enfermo_active{ background-position: -146px -292px; width: 96px; height: 96px; margin-top:222px; margin-left:222px;} 
+.sprite-enfermo_inactive{ background-position: -146px -438px; width: 96px; height: 96px; margin-top:222px; margin-left:222px;} 
+.sprite-estres_active{ background-position: -146px -584px; width: 96px; height: 96px; margin-top:111px; margin-left:555px;} 
+.sprite-estres_inactive{ background-position: -146px -730px; width: 96px; height: 96px; margin-top:111px; margin-left:555px;} 
+.sprite-fibra_active{ background-position: -146px -876px; width: 96px; height: 96px; margin-left:333px;} 
+.sprite-fibra_inactive{ background-position: -146px -1022px; width: 96px; height: 96px; margin-left:333px;} 
+.sprite-frutas-verduras_active{ background-position: -146px -1168px; width: 96px; height: 96px; margin-left:444px;} 
+.sprite-frutas-verduras_inactive{ background-position: -146px -1314px; width: 96px; height: 96px; margin-left:444px;} 
+.sprite-grasas_active{ background-position: -146px -1460px; width: 96px; height: 96px; margin-left:222px;} 
+.sprite-grasas_inactive{ background-position: -146px -1606px; width: 96px; height: 96px; margin-left:222px; } 
+.sprite-imc_active{ background-position: -146px -1752px; width: 96px; height: 96px; margin-top:111px; margin-left:333px;} 
+.sprite-imc_inactive{ background-position: -146px -1898px; width: 96px; height: 96px; margin-top:111px; margin-left:333px;} 
+.sprite-presion-sanguinea_active{ background-position: -292px 0; width: 96px; height: 96px; margin-top:111px; margin-left:222px;} 
+.sprite-presion-sanguinea_inactive{ background-position: -292px -146px; width: 96px; height: 96px; margin-top:111px; margin-left:222px;} 
+.sprite-proteccion-solar_active{ background-position: -292px -292px; width: 96px; height: 96px; margin-top:222px; margin-left:555px;} 
+.sprite-proteccion-solar_inactive{ background-position: -292px -438px; width: 96px; height: 96px; margin-top:222px; margin-left:555px;} 
+.sprite-sal_active{ background-position: -292px -584px; width: 96px; height: 96px; margin-top:111px;} 
+.sprite-sal_inactive{ background-position: -292px -730px; width: 96px; height: 96px; margin-top:111px;} 
+.sprite-tabaco_active{ background-position: -292px -876px; width: 96px; height: 96px; margin-top:222px; margin-left:333px;} 
+.sprite-tabaco_inactive{ background-position: -292px -1022px; width: 96px; height: 96px; margin-top:222px; margin-left:333px;} */
+
+
+.sprite-agua_active{ background-position: 0 0; width: 73px; height: 73px; } 
+.sprite-agua_inactive{ background-position: 0 -123px; width: 73px; height: 73px; } 
+.sprite-alcohol_active{ background-position: 0 -246px; width: 73px; height: 73px; } 
+.sprite-alcohol_inactive{ background-position: 0 -369px; width: 73px; height: 73px; } 
+.sprite-chatarra_active{ background-position: 0 -492px; width: 73px; height: 73px; } 
+.sprite-chatarra_inactive{ background-position: 0 -615px; width: 73px; height: 73px; } 
+.sprite-colesterol_active{ background-position: 0 -738px; width: 73px; height: 73px; } 
+.sprite-colesterol_inactive{ background-position: 0 -861px; width: 73px; height: 73px; } 
+.sprite-desayuno_active{ background-position: 0 -984px; width: 73px; height: 73px; } 
+.sprite-desayuno_inactive{ background-position: 0 -1107px; width: 73px; height: 73px; } 
+.sprite-diabetes_active{ background-position: 0 -1230px; width: 73px; height: 73px; } 
+.sprite-diabetes_inactive{ background-position: 0 -1353px; width: 73px; height: 73px; } 
+.sprite-dormir_active{ background-position: 0 -1476px; width: 73px; height: 73px; } 
+.sprite-dormir_inactive{ background-position: 0 -1599px; width: 73px; height: 73px; } 
+.sprite-ejercicio_active{ background-position: 0 -1722px; width: 73px; height: 73px; } 
+.sprite-ejercicio_inactive{ background-position: 0 -1845px; width: 73px; height: 73px; } 
+.sprite-enfermo_active{ background-position: -123px 0; width: 73px; height: 73px; } 
+.sprite-enfermo_inactive{ background-position: -123px -123px; width: 73px; height: 73px; } 
+.sprite-estres_active{ background-position: -123px -246px; width: 73px; height: 73px; } 
+.sprite-estres_inactive{ background-position: -123px -369px; width: 73px; height: 73px; } 
+.sprite-fibra_active{ background-position: -123px -492px; width: 73px; height: 73px; } 
+.sprite-fibra_inactive{ background-position: -123px -615px; width: 73px; height: 73px; } 
+.sprite-frutas-verduras_active{ background-position: -123px -738px; width: 73px; height: 73px; } 
+.sprite-frutas-verduras_inactive{ background-position: -123px -861px; width: 73px; height: 73px; } 
+.sprite-grasas_active{ background-position: -123px -984px; width: 73px; height: 73px; } 
+.sprite-grasas_inactive{ background-position: -123px -1107px; width: 73px; height: 73px; } 
+.sprite-imc_active{ background-position: -123px -1230px; width: 73px; height: 73px; } 
+.sprite-imc_inactive{ background-position: -123px -1353px; width: 73px; height: 73px; } 
+.sprite-presion-sanguinea_active{ background-position: -123px -1476px; width: 73px; height: 73px; } 
+.sprite-presion-sanguinea_inactive{ background-position: -123px -1599px; width: 73px; height: 73px; } 
+.sprite-proteccion-solar_active{ background-position: -123px -1722px; width: 73px; height: 73px; } 
+.sprite-proteccion-solar_inactive{ background-position: -123px -1845px; width: 73px; height: 73px; } 
+.sprite-sal_active{ background-position: -246px 0; width: 73px; height: 73px; } 
+.sprite-sal_inactive{ background-position: -246px -123px; width: 73px; height: 73px; } 
+.sprite-tabaco_active{ background-position: -246px -246px; width: 73px; height: 73px; } 
+.sprite-tabaco_inactive{ background-position: -246px -369px; width: 73px; height: 73px; } 
+
+
+
+
+/* Estilos para el tooltip de la gráfica*/
+
+.tooltip{
+	position: absolute;	
+	padding: 4px;
+	font-family: 'aero_matics_lightregular';
+	color: #4C4C4C;
+	background:url("images/fondo_tooltip.png");
+	border: 1px solid #DBDDDE;   
+	font-size: 14px;	
+	line-height: 18px;
+	text-align: center;	
+	border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius : 5px;
+	width:356px;
+	padding:10px !important;
+	z-index:99999999 !important;
+
+}
+
+
+.tooltip p{	
+	font-size: 13px;	
+	color:#4E4E4E;
+}
+
+.tooltip p span{	
+}
+
+
+
+
+#resultados div .tooltip{
+	width:189px !important;	
+	background-color:#FFFFFF !important;
+	overflow:hidden !important;
+	text-align:center !important;
+}
+
+#resultados div .tooltip span{	
+	font-size:15px;
+	color:#4D4D4D;
+	display:block;
+	border-bottom:1px #BFC1C3 solid;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+#resultados div .tooltip .amigos{
+	overflow:hidden !important;
+}
+
+/* Grafica de resultados */
+
+.resultado_grafica{
+	width:775px;
+	height:495px;
+	background:url("images/fondo_resultado.jpg") no-repeat;
+	background-position:0px -5px;
+	margin-top:-2px;
+	padding-top:20px;
+	padding-bottom:40px;
+	
+}
+
+.resultado_grafica .tit{	
+	font-family: 'aero_matics_lightregular';
+	font-size:44px;
+	color:#10334A;
+	text-align:left;
+	padding-left:90px;
+	background:url("images/fondo_titulo.png") no-repeat;	
+	background-position:0px 0px;
+	background-size:510px 50px;
+	width:500px;
+	display:block;
+	z-index:9999999 !important;
+}
+#resultados{
+	width:665px;
+	height:297px;	
+	background-color:transparent;
+	position:absolute;
+	margin-top:80px;
+	margin-left:100px;			
+}
+
+#resultados div{
+	background:url("images/fondo_barra.png");
+	position:absolute;
+	width:21px;
+}
+
+#Amas{		
+	margin-left:60px;
+}
+
+#A{	
+	margin-left:110px;
+}
+
+#Amenos{
+	margin-left:152px;
+}
+#Bmas{
+	margin-left:197px;
+}
+#B{
+	margin-left:242px;
+}
+#Bmenos{
+	margin-left:287px;
+}
+#Cmas{
+	margin-left:332px;
+}
+#C{
+	margin-left:377px;
+}
+#Cmenos{
+	margin-left:420px;
+}
+#Dmas{
+	margin-left:463px;
+}
+#D{
+	margin-left:505px;
+}
+#Dmenos{
+	margin-left:547px;
+}
+#F{
+	margin-left:592px;
+}
+
+
+.resultado_grafica div{	
+}
+
+
+.calificaciones{
+	width:710px;
+	margin:0px auto;
+	margin-top:420px;
+	overflow:hidden;
+	background:url("images/calificaciones.png") no-repeat;
+	background-size:100% 100%;
+	clear:both;
+	padding:8px 0px;
+}
+
+.calificaciones div{
+	float:left;
+	width:140px;
+	font-family: 'aero_maticsregular';
+	font-size:13px;
+	color:#FFFFFF;
+	border-left:2px #FFFFFF solid;
+	text-align:center;	
+}
+
+.calificaciones div.primero{
+	border:none !important;
+}
+
+.calificaciones div span{
+	color:#96EAFF;
+}
+
+
+
+
+.footer{
+	background:#3A7CAE url("images/fondo_footer.png") no-repeat;
+	text-align:center;
+	padding:10px 0px;	
+	font-family: 'aero_maticsregular';
+	font-size:17px;
+	color:#FFFFFF;	
+}
+
+
+.titulo_movil{
+	display:none;
+}
+
+#mensaje_tip{
+	display:none;
+}
+
+#instruccion_tip{
+    height:30px;
+    font-family: 'aero_matics_lightregular';
+	font-size:16px;
+	color:#FFFFFF;
+    text-align:center;    
+}
+
+.miTip{
+    border:3px #174967 solid;
+}
+
+.p_tips{
+    text-align:left;
+    font-family: 'aero_maticsregular';    
+    font-size:14px !important;
+
+}
+
+.l_tips{
+    margin-left:15px;
+    text-align:left;
+    padding-bottom:15px;
+}
+
+.l_tips li{
+    font-family: 'aero_maticsregular';    
+    font-size:14px;
+}
+
+.link_tips{
+    text-decoration:none;
+    text-transform:uppercase;
+	padding:5px;
+    background-color:#119EEA;
+    text-align:center;
+    font-family: 'aero_maticsregular';
+	font-size:24px;
+	color:#FFFFFF;
+    margin:5px auto;
+    
+
+}
+
+.link{
+    color:white;
+}
+
+.link_boton{
+    text-decoration:none;
+}
+
+.link_boton:hover{
+    text-decoration:none;
+}
+
+.boton{
+    width:229px;
+    padding:15px 0px;
+    margin:0px auto 100px auto;
+    font-family: 'aero_matics_lightregular';
+    font-size:14px;
+    color:white;
+    background:url("images/boton.png") no-repeat top center;
+    text-align:center;
+}
+
+.boton2{
+    width:229px;
+    padding:15px 0px;
+    margin:0px auto 10px auto;
+    font-family: 'aero_matics_lightregular';
+    font-size:14px;
+    color:white;
+    background:url("images/boton.png") no-repeat top center;
+    text-align:center;
+}
+
+.boton:hover, .boton2:hover{
+    cursor:pointer;
+}
+
+.contenedor_btn_fb{
+    width:291px;
+    /*background:url("images/share.png") no-repeat top center;*/
+    margin:0px auto 50px auto;
+}
+
+.contenedor_btn_fb a div span{
+    display:block;
+}
+
+.contenedor_btn_fb a, .contenedor_btn_fb a:hover{
+    text-decoration:none;
+}
+
+.contenedor_btn_fb a div{
+    font-family: 'aero_matics_lightregular';
+    font-size:14px;
+    color:white;
+    text-align:right;
+    padding:15px 40px 15px 0px;    
+}
+
+.contenedor_btn_fb a div span{
+    font-family: 'aero_matics_lightregular';
+    font-size:22px;
+    color:white;
+    text-align:right;
+    padding-right:20px;
+}
+
+.logos{
+    text-align:center;
+    padding:15px 0px;
+}
+
+.logos div{
+    display:inline-block;
+}
+
+.logo_univision{
+    width:233px;
+    height:67px;
+    background:url("images/univision.png") no-repeat center center;
+    background-size:100% 100%;
+}
+
+.logo_contigo{
+    width:272px;
+    height:67px;
+    background:url("images/univision-contigo.png") no-repeat center center;
+    background-size:100% 100%;
+}
+
+div.codigo_postal {
+	text-align: center;
+}
+
+div.codigo_postal p {
+	color: white;
+	margin:10px 0px;
+}
+
+div.respuesta.centrada {
+	position: relative;
+	margin: 20px auto;
+	width: 277px;
+}
+
+
+div.social {
+	margin-top: 330px;
+	margin-left: 560px;
+	width:176px;
+	overflow: hidden;
+}
+
+.social div{
+	width:176px;
+	height:49px;
+	cursor:pointer;
+	margin-bottom:8px;
+}
+
+.boton_facebook{
+	background:url("images/boton_facebook.png") no-repeat center center;
+}
+
+.boton_google{
+	background:url("images/boton_google.png") no-repeat center center;
+}
+
+div#button {
+	display: none;
+}
+
+.boton_sin_registro{
+	background:url("images/boton_sin_registro.png") no-repeat center center;
+}
+
+
+.banda_resultados{
+	width:775px;
+	height:50px;
+	/*background:url("images/banda_resultados.png") no-repeat center top;	*/
+	position:absolute;
+	margin-top:350px;
+}
+
+.banda_resultados div{
+	width:114px;
+	font-family: 'aero_maticsregular';
+	font-size:18px;
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:5px;
+	position:absolute;
+	margin-top:-5px;
+	padding-top:15px;
+}
+
+.banda_resultados div span{
+	font-family: 'aero_matics_display_lightRg';
+	font-size:15px;
+	color:#FFFFFF;	
+	display:block;
+	margin-top:15px;
+	text-align:center;
+	text-shadow:none;
+}
+
+#banda_peso_bajo{
+	margin-left:160px;
+}
+
+#banda_peso_normal{
+	margin-left:290px;
+}
+
+#banda_sobrepeso{
+	margin-left:420px;
+}
+
+#banda_obesidad{
+	margin-left:530px;
+}
+
+.banda_activa{
+	text-shadow: 0px 0px 15px rgba(255,255,255,50);
+	background:gray;
+}
+.banda_activa span{
+	text-shadow: 0px !important;
+}
+
+/*barchart con imágenes*/
+
+div#barras {
+	width: 100%;
+	height: 213px;
+	background: url("images/Timeline.png") no-repeat center bottom;
+}
+
+div.monitos {
+	margin: 122px 0px 0px 23px;
+}
+
+div#barras .monito {
+	width: 22px;
+	height: 55px;
+	background: url("images/Mono_azul.png") no-repeat;
+	background-size:22px 55px;
+}
+div#barras .verde {
+	background: url("images/Mono_verde.png") no-repeat;
+	width: 10.7px;
+	height: 55px;
+	background-position: center bottom;
+	background-size: 10.7px 30px;
+}
+div#barras div {
+	float: left;
+}
+div#barras .rojo {
+	background: url("images/Mono_rojo.png") no-repeat;
+	width: 10.7px;
+	height: 55px;
+	background-position: center bottom;
+	background-size: 10.7px 30px;
+}
+
+div.cuadrito {
+	width: 83px;
+	height: 65px;
+	background: url("images/globo-de-resultado.png") no-repeat;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 12px;
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	font-family: 'aero_matics_lightregular';
+	padding-top:10px;
+}
+
+div.cuadrito2 {
+	width: 83px;
+	height: 65px;
+	background: url("images/globo_flip.png") no-repeat;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: -71px;
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	font-family: 'aero_matics_lightregular';
+	padding-top: 10px;
+}
+
+img.cintillo {
+	margin: 36px auto;
+	display: block;
+}
+
+/* Estilos para la versión móvil */
+
+@media only screen and (max-width: 768px), only screen and (device-aspect-ratio: 40/71), only screen and (device-aspect-ratio: 2/3) {
+	.portada {
+		background: url('images/fondo_1_movil.jpg') no-repeat;
+		width: 320px;
+		height: 820px;
+		overflow: hidden;
+	}
+	div.social {
+		margin-top: 530px;
+		margin-left: 60px;
+	}
+
+
+
+
+	#content{
+		width:100%;		
+	}
+	#contenido{
+		width:100%;
+		margin:0px auto;
+		background:#081923 url('images/fondo_1_movil.jpg') no-repeat center top;	
+		
+	}
+
+   	#contenido_comparte{
+		width:100%;
+		margin:0px auto;
+		background:#081923 url('images/ESP_320.jpg') no-repeat center top;	
+		
+	}
+    #contenido_comparte_eng{
+		width:100%;
+		margin:0px auto;
+		background:#081923 url('images/ENG_320.jpg') no-repeat center top;	
+		
+	}
+	
+	#en_contenido{
+		width:100%;
+		margin:0px auto;
+		background:#081923 url('images/fondo_1_movil_en.jpg') no-repeat center top;	
+		
+	}
+	
+	#preguntas, .valores{
+		width:100%;
+		padding:0px;
+		margin-top:500px;	
+		background:none;
+		overflow:hidden;
+	}
+	
+	#facebook{
+		width:85%;		
+		background:none;
+		
+	}
+
+	#facebook h3{
+		
+	}
+	
+	/*#btn_facebook, #btn_sin_facebook{
+		width:222px;
+		height:54px;	
+		font-size:20px;
+		color:#FFFFFF;
+		clear:both;
+		position:relative;
+	}*/
+
+    .btn_google{
+        width:240px;
+        clear:both;
+  		position:relative;
+        margin:15px auto;
+    }
+
+	/*#btn_facebook{
+		background:url('images/btn_facebook.jpg') no-repeat;				
+		margin:15px auto;
+	}
+
+	#btn_sin_facebook{	
+		color:#000000;
+		padding:10px 0px;		
+		margin:15px auto;
+	}*/
+	
+	.pregunta{
+		width:85%;
+		background:none;
+	}
+	
+	.pregunta, #facebook{
+		height:auto;
+		overflow:hidden;
+	}
+	
+	.pregunta h3, #facebook h3{
+		background:url("images/fondo_pregunta2.png") no-repeat;
+		background-size:100% 100%;
+		padding:20px 0px;
+		font-family: 'aero_matics_lightregular';
+		font-size:22px;
+		margin-bottom:20px;
+	}
+	
+	
+	.respuesta{		
+		position:relative;		
+		height:auto;
+	}
+
+	.respuesta1, .respuesta2, .respuesta3, .respuesta4{
+		margin:15px auto;
+	}
+	
+	.regresar{		
+		margin:0px;
+		top:auto;
+		left:auto;
+		margin-top:-25px;
+		margin-left:-15px;
+		color:transparent;
+	}
+	.regresar:hover{
+		color:transparent;
+	}
+	
+	
+	.fondo_calificacion{	
+		background:none;		
+		padding:0px;
+		padding-bottom:40px;	
+		width:100%;
+		margin:0px auto;
+		clear:both;
+		overflow:hidden;		
+	}	
+
+
+	.calificacion{			
+		width:100%;
+		padding:0px;
+		margin:0px auto;		
+		padding-top:10px;
+	}
+	
+	
+	.calificacion #resultado{	
+		background:url("images/fondo_calificacion_movil.png") no-repeat;
+		background-position:0px;
+		background-size:98%;
+		font-family: 'aero_matics_display_lightRg';
+		font-size:180px;
+		color:#FFFFFF;	
+		text-shadow: 0px 0px 15px rgba(255,255,255,50) !important;
+		width:90%;
+		text-align:center;			
+		margin:10px auto;		
+	}
+
+	.calificacion #resultado span{	
+		font-family: 'aero_matics_display_lightRg';
+		font-size:30px;
+		color:#FFFFFF;
+		display:block;
+		margin-top:-60px;
+		text-align:center;
+	}
+	
+	.calificacion .tit, .mejora .tit, .resultado_grafica .tit{	
+		background:url("images/fondo_titulo.png") no-repeat;
+		font-family: 'aero_maticsregular';
+		font-size:20px;
+		color:#10334A;		
+		padding-left:15px;		
+		background-size:95%;
+		background-position:0px;
+		width:200px;		
+	}
+
+	.mejora .tit{							
+		width:260px;
+		padding:5px 0px;
+		font-size:18px;
+		margin:0px;
+	}
+	
+	
+	.resultado_grafica .tit{	
+		width:220px;
+		padding:5px 0px;
+		font-size:18px;
+		margin:0px;
+	}
+	
+	.mensaje{
+		width:95%;
+		padding:25px 0px;	
+		overflow:hidden;
+		position:relative;
+		margin:0px auto;
+		font-family: 'aero_matics_lightregular';
+		font-size:18px;
+		color:#FFFFFF;
+		text-align:center;
+		/*
+		background-color:#F1F9F3;    
+		-moz-border-radius: 15px 0px 0px 15px;
+		-webkit-border-radius : 15px 0px 0px 15px;
+		-webkit-box-shadow: -5px 5px 5px rgba(0,0,0,.5);
+		-moz-box-shadow: -5px 5px 5px rgba(0,0,0,.5);
+		box-shadow: -5px 5px 5px rgba(0,0,0,.5);*/
+		
+		background:none;		
+	}
+	.mensaje span{
+		font-family: 'aero_maticsregular';
+		font-size:20px;
+		color:#FFFFFF;
+	}
+
+	.mensaje div{
+		width:100%;		
+	}
+	
+	.mejora{
+		width:100%;
+		height:auto;
+		overflow:hidden;
+		margin:0px auto;
+	}
+
+	.tips{
+		width:95%;		
+		margin:0px auto;
+		height:400px;		
+		clear:both;		
+	}
+
+	/* Sprite para el area de mejora */
+	.tip{				
+		background:url("images/sprite_movil.png");
+		position:relative;
+		margin:0px;
+		float:left;
+		margin:1px;		
+	}	
+	
+	.titulo_movil{
+		display:block;
+		font-family: 'aero_matics_lightregular';
+		font-size:16px;
+		color:#FFFFFF;
+		padding:10px 0px;
+	}	
+	.sprite-agua_active{ background-position: 0 0; width: 73px; height: 73px; } 
+	.sprite-agua_inactive{ background-position: 0 -123px; width: 73px; height: 73px; } 
+	.sprite-alcohol_active{ background-position: 0 -246px; width: 73px; height: 73px; } 
+	.sprite-alcohol_inactive{ background-position: 0 -369px; width: 73px; height: 73px; } 
+	.sprite-chatarra_active{ background-position: 0 -492px; width: 73px; height: 73px; } 
+	.sprite-chatarra_inactive{ background-position: 0 -615px; width: 73px; height: 73px; } 
+	.sprite-colesterol_active{ background-position: 0 -738px; width: 73px; height: 73px; } 
+	.sprite-colesterol_inactive{ background-position: 0 -861px; width: 73px; height: 73px; } 
+	.sprite-desayuno_active{ background-position: 0 -984px; width: 73px; height: 73px; } 
+	.sprite-desayuno_inactive{ background-position: 0 -1107px; width: 73px; height: 73px; } 
+	.sprite-diabetes_active{ background-position: 0 -1230px; width: 73px; height: 73px; } 
+	.sprite-diabetes_inactive{ background-position: 0 -1353px; width: 73px; height: 73px; } 
+	.sprite-dormir_active{ background-position: 0 -1476px; width: 73px; height: 73px; } 
+	.sprite-dormir_inactive{ background-position: 0 -1599px; width: 73px; height: 73px; } 
+	.sprite-ejercicio_active{ background-position: 0 -1722px; width: 73px; height: 73px; } 
+	.sprite-ejercicio_inactive{ background-position: 0 -1845px; width: 73px; height: 73px; } 
+	.sprite-enfermo_active{ background-position: -123px 0; width: 73px; height: 73px; } 
+	.sprite-enfermo_inactive{ background-position: -123px -123px; width: 73px; height: 73px; } 
+	.sprite-estres_active{ background-position: -123px -246px; width: 73px; height: 73px; } 
+	.sprite-estres_inactive{ background-position: -123px -369px; width: 73px; height: 73px; } 
+	.sprite-fibra_active{ background-position: -123px -492px; width: 73px; height: 73px; } 
+	.sprite-fibra_inactive{ background-position: -123px -615px; width: 73px; height: 73px; } 
+	.sprite-frutas-verduras_active{ background-position: -123px -738px; width: 73px; height: 73px; } 
+	.sprite-frutas-verduras_inactive{ background-position: -123px -861px; width: 73px; height: 73px; } 
+	.sprite-grasa_active{ background-position: -123px -984px; width: 73px; height: 73px; } 
+	.sprite-grasas_inactive{ background-position: -123px -1107px; width: 73px; height: 73px; } 
+	.sprite-imc_active{ background-position: -123px -1230px; width: 73px; height: 73px; } 
+	.sprite-imc_inactive{ background-position: -123px -1353px; width: 73px; height: 73px; } 
+	.sprite-presion-sanguinea_active{ background-position: -123px -1476px; width: 73px; height: 73px; } 
+	.sprite-presion-sanguinea_inactive{ background-position: -123px -1599px; width: 73px; height: 73px; } 
+	.sprite-proteccion-solar_active{ background-position: -123px -1722px; width: 73px; height: 73px; } 
+	.sprite-proteccion-solar_inactive{ background-position: -123px -1845px; width: 73px; height: 73px; } 
+	.sprite-sal_active{ background-position: -246px 0; width: 73px; height: 73px; } 
+	.sprite-sal_inactive{ background-position: -246px -123px; width: 73px; height: 73px; } 
+	.sprite-tabaco_active{ background-position: -246px -246px; width: 73px; height: 73px; } 
+	.sprite-tabaco_inactive{ background-position: -246px -369px; width: 73px; height: 73px; } 
+
+
+	
+	.web{
+		display:none !important;
+	}
+	
+	
+	.tips .tooltip{
+	    display:none !important;		
+	}
+	
+	.sprite-ejercicio_active:hover, .sprite-chatarra_active:hover, .sprite-grasas_active:hover, .sprite-fibra_active:hover, .sprite-frutas-verduras_active:hover,.sprite-agua_active:hover,
+	.sprite-sal_active:hover,.sprite-colesterol_active:hover,.sprite-presion-sanguinea_active:hover,.sprite-imc_active:hover,.sprite-diabetes_active:hover,.sprite-estres_active:hover,
+	.sprite-alcohol_active:hover,.sprite-dormir_active:hover,.sprite-enfermo_active:hover,.sprite-tabaco_active:hover,.sprite-desayuno_active:hover,.sprite-proteccion-solar_active:hover{
+		cursor:pointer;
+	}
+	
+	/*.sprite-ejercicio_active .tooltip{
+		margin-left:0px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-chatarra_active .tooltip{
+		margin-left:-66px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-grasas_active .tooltip{
+		margin-left:-132px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-fibra_active .tooltip{
+		margin-left:80px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-frutas-verduras_active .tooltip{
+		margin-left:283px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-agua_active .tooltip{
+		margin-left:215px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-sal_active .tooltip{
+		margin-left:-133px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-colesterol_active .tooltip{
+		margin-left:-201px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-presion-sanguinea_active .tooltip{
+		margin-left:2px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-imc_active .tooltip{
+		margin-left:215px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-diabetes_active .tooltip{
+		margin-left:145px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-estres_active .tooltip{
+		margin-left:78px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-alcohol_active .tooltip{
+		margin-top:50px !important;
+	}
+	
+	.sprite-dormir_active .tooltip{
+		margin-left:-66px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-enfermo_active .tooltip{
+		margin-left:-133px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-tabaco_active .tooltip{
+		margin-left:79px !important;
+		margin-top:50px !important;
+	}
+	
+	.sprite-desayuno_active .tooltip{
+		margin-left:283px !important;
+		margin-top:50px !important;	
+	}
+	
+	.sprite-proteccion-solar_active .tooltip{
+		margin-left:215px !important;
+		margin-top:50px !important;	
+	}*/
+	
+	.resultado_grafica{
+		background:url("images/fondo_resultado_movil_en.jpg") no-repeat;
+		width:95%;
+		height:329px;
+		margin:0px auto;
+		background-size:100%;
+		background-position:0px 60px;		
+	}
+	
+	
+	/*.resultado_en{
+		background:url("images/fondo_resultado_movil_en.jpg") no-repeat !important;		
+		width:95%;
+		height:329px;
+		margin:0px auto;
+		background-size:100%;
+		background-position:0px 60px;		
+	}*/
+	
+	#resultados{
+		width:95%;		
+		margin:0px auto;
+		margin-top:45px;
+        margin-left:5px;
+		height:130px;		
+	}
+	
+	#resultados div{
+		background:url("images/fondo_barra_movil.png");
+		position:absolute;
+		width:10px;
+	}
+
+	#Amas{		
+		margin-left:44px;
+	}
+
+	#A{	
+		margin-left:63px;
+	}
+
+	#Amenos{
+		margin-left:82px;
+	}
+	#Bmas{
+		margin-left:101px;
+	}
+	#B{
+		margin-left:120px;
+	}
+	#Bmenos{
+		margin-left:139px;
+	}
+	#Cmas{
+		margin-left:158px;
+	}
+	#C{
+		margin-left:177px;
+	}
+	#Cmenos{
+		margin-left:196px;
+	}
+	#Dmas{
+		margin-left:215px;
+	}
+	#D{
+		margin-left:234px;
+	}
+	#Dmenos{
+		margin-left:253px;
+	}
+	#F{
+		margin-left:272px;		
+	}
+
+	
+	.calificaciones{
+		width:60%;
+		margin:200px auto 0px auto;
+		background:url("images/calificaciones_movil.png") no-repeat;
+		background-position:0px 0px;	
+		background-size:100% 100%;
+		clear:both;	
+		overflow:hidden;		
+	}
+	.calificaciones div{
+		float:none;
+		border:0px;
+		text-align:center;		
+		margin:0px auto;
+	}
+	
+	#mensaje_tip{
+		display:block;
+		width:90%;
+		margin:0px auto;		
+        background:url("images/fondo_tooltip.png");
+		font-family: 'aero_matics_lightregular';
+		font-size:16px;
+		color:#4C4C4C;				
+   		border:1px #119EEA solid;
+        padding:5px;		
+
+	}
+	
+	.contenido_mensaje{
+        text-align:center;
+	}
+	
+	#cerrar{
+		padding:5px;
+		background-color:#119EEA;
+		text-align:center;
+		font-family: 'aero_maticsregular';
+		font-size:24px;
+		color:#FFFFFF;
+        margin:5px;
+	}
+	#cerrar:hover, .link_tips:hover{
+		cursor:pointer;
+	}
+	
+	
+	
+	#mensaje_tip p{
+		font-family: 'aero_matics_lightregular';
+		font-size:16px;
+		color:#4C4C4C;				
+        text-align:left;
+	}
+    .logo_univision{
+        width:110px;
+        height:40px;
+    }
+
+    .logo_contigo{
+        width:114px;
+        height:40px;
+        
+    }
+
+}
+
